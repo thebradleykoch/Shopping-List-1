@@ -21,3 +21,30 @@
 .done {
   text-decoration: line-through;
 }
+
+#container{
+  display:grid;
+  grid-template-columns: 20% 10px 10%;
+  grid-auto-rows: 100%;
+  justify-content: start;
+  align-content: space-around;
+  
+
+}
+#list {
+  display:grid;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  cursor:pointer;
+  
+}
+
+#bin {
+  list-style: none;
+  display: grid;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  cursor: pointer;
+}
+
+
